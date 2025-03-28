@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Simple Sentry Gun Blueprint -->
+  <g fill="none" stroke="#4a85bc" stroke-width="1.5">
+    <!-- Base -->
+    <rect x="60" y="140" width="80" height="20" />
+    
+    <!-- Main body -->
+    <rect x="70" y="90" width="60" height="50" />
+    
+    <!-- Gun barrels -->
+    <rect x="80" y="70" width="40" height="20" />
+    <circle cx="100" cy="80" r="5" />
+    
+    <!-- Ammo box -->
+    <rect x="120" y="100" width="20" height="30" />
+    
+    <!-- Blueprint measurements -->
+    <line x1="50" y1="140" x2="50" y2="160" stroke-dasharray="4,2" />
+    <line x1="150" y1="140" x2="150" y2="160" stroke-dasharray="4,2" />
+    <line x1="50" y1="150" x2="150" y2="150" stroke-dasharray="4,2" />
+    
+    <!-- Blueprint text -->
+    <text x="90" y="35" font-family="monospace" font-size="10" fill="#4a85bc">SENTRY GUN - LEVEL 1</text>
+    <text x="75" y="180" font-family="monospace" font-size="8" fill="#4a85bc">MANN CO. PATENT PENDING</text>
+  </g>
+  
+  <!-- Blueprint grid for background -->
+  <path d="M0,0 H200 M0,20 H200 M0,40 H200 M0,60 H200 M0,80 H200 M0,100 H200 M0,120 H200 M0,140 H200 M0,160 H200 M0,180 H200" stroke="#4a85bc" stroke-width="0.3" opacity="0.3" />
+  <path d="M0,0 V200 M20,0 V200 M40,0 V200 M60,0 V200 M80,0 V200 M100,0 V200 M120,0 V200 M140,0 V200 M160,0 V200 M180,0 V200" stroke="#4a85bc" stroke-width="0.3" opacity="0.3" />
+</svg>
